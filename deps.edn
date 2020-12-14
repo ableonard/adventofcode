@@ -1,0 +1,14 @@
+{
+ :paths ["src"]
+ :deps {
+  org.clojure/math.combinatorics {:mvn/version "0.1.6"}
+ }
+ :aliases
+ {
+  :day1
+  {
+   :ns-default net.aleonard.adventofcode.2020.1
+   :exec-fn -main
+   :exec-args {:filename "resources/in-1.txt"}}
+  }
+}
