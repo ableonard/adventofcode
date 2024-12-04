@@ -1,0 +1,11 @@
+(executable
+ (public_name day3A)
+ (name mainA)
+ (libraries aoc2023 str)
+ (modules mainA))
+
+(executable
+ (public_name day3B)
+ (name mainB)
+ (libraries aoc2023 str)
+ (modules mainB))
